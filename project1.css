@@ -1,0 +1,300 @@
+body{
+    background-color: rgba(255, 255, 255, 0.418);
+    
+}
+header{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgba(0, 0, 0, 0.281) 1px 0.5px 1px;
+    background-color: white;
+    padding:10px
+  
+}
+.shading{
+    background-color: brown;
+    
+}
+header h1{
+    text-align: center;
+    color:rgb(255, 115, 0);
+}
+
+img.logo {
+    position:absolute;
+    width: 200px;
+    top: 0px;
+    left: 250px;
+    border-radius: 3px;
+    border-bottom-left-radius:50%;
+}
+
+/* .logo:hover{
+    transform: scale(1.05);
+} */
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.377);
+    
+    margin:none;
+    font-size: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   /* box-shadow: black 5px -1px 10px; */
+   height: 45px;
+   flex-direction:initial;
+   /* margin-left: 268px; */
+   border-bottom-right-radius: 5px;
+   
+}
+
+
+nav a{
+   
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-shadow: black 0px 2px 8px;
+    /* background-color:rgba(0, 0, 0, 0.473) ; */
+    
+}
+nav a:hover{
+    color:yellow;
+    text-shadow: 0px 8px 10px black;
+}
+/* nav a:visited{
+    color: crimson;
+} */
+
+footer a{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* float: left; */
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+}
+.founder {
+    /* border: solid 1px rgb(7, 7, 7); */
+    text-align: center;
+    padding: 5px;
+    background-color: #c00404;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+
+
+.welcome{
+    text-align: center;
+}
+
+
+
+.products{
+    /* border: 1px solid grey; */
+    text-align: center;
+    margin: 30px;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+   
+}
+.container{
+  
+   border: black 5px;
+   display: flex;
+   flex-wrap: wrap;
+   align-content:center ;
+   margin:40px;
+   
+   
+}
+.welcomeh2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color: white;
+    padding: 0 0 0 100px; 
+    margin-bottom: 20px;
+
+}
+.welcomepara{
+    color: rgba(255, 255, 255, 0.74);
+    padding: 0 600px 200px 100px;
+    font: inherit;
+    
+}
+
+.herbsimg {
+    background: url(https://starmasale.in/assets/img/flat-discount.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+#product-1{
+    overflow: hidden;
+    padding: 0px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.719);
+    transition: 0.2s;
+    
+}
+#product-1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+   
+}
+#product-2{
+    overflow: hidden;
+    padding: 0px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.719);
+    transition: 0.2s;
+}
+#product-2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+#product-3{
+    overflow: hidden;
+    padding: 0px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.719);
+    transition: 0.2s;
+    
+}
+#product-3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+#product-4{
+    overflow: hidden;
+    padding: 0px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.719);
+    transition: 0.2s;
+}
+#product-4:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#product-5{
+    overflow: hidden;
+    padding: 0px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.719);
+    transition: 0.2s;
+}
+#product-5:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#product-6{
+    overflow: hidden;
+    padding: 0px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.719);
+    transition: 0.2s;
+}
+#product-6:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.discount-wrap {
+	background: url(img/herbs-and-spices\ \(2\).jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.discount-wrap .discount-section {
+	padding: 20px;
+	background: #fff;
+    margin: 60px;
+    margin-right: 40%;
+}
+.discount-wrap .discount-section .dis-title {
+	font-size: 2.5rem;
+	color: #d41218;
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 3.5rem;
+}
+.discount-wrap .discount-section .dis-pra {
+	padding: 15px 0;
+	text-align: justify;
+}
+.discount-wrap .discount-section .dis_btn button {
+	padding: 10px 15px;
+	border-radius: 100px;
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid 1px #b9b9b9;
+	cursor: pointer;
+	outline: none;
+}
+.discount-wrap .discount-section .dis_btn button {
+	padding: 10px 20px;
+	border-radius: 150px;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid 1px #c93000;
+	cursor: pointer;
+	outline: none;
+	background: #a92400;
+	height: auto;
+	font-weight: 700;
+	color: #fff;
+}
+.gray-bg{
+    background-color: #dfdfdf;
+    padding: 7px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.gray-bg h1{ 
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color:#f45;
+}
+.shop-btn {
+	display: block;
+	clear: both;
+	text-align: center;
+}
+.shop-btn a, .shop-btn a:hover {
+	background: #f45;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.svideo{
+    top: 50%;
+   display:flexbox;
+    position: relative;
+    width:100%;
+    
+}
+
+
